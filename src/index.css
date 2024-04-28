@@ -26,3 +26,12 @@ body {
   display: grid;
   place-items: center;
 }
+
+@media screen and (max-width: 660px) {
+  body {
+    height: 856px;
+    padding: 72px 32px 62px;
+    display: flex;
+    justify-content: center;
+  }
+}
